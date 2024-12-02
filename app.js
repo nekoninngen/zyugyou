@@ -1,7 +1,7 @@
         function checkFortune() {
             var colour = document.getElementById('colour-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
-            var result = "凶"; // デフォルトの値
+            var result = "回答してね"; // デフォルトの値
 
             if (colour === "とううん" && number === 0) {
                 result = "残念…";
