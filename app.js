@@ -21,6 +21,12 @@
                 result = "大吉";
             } else if (colour === "オレンジ" && number === 2) {
                 result = "中吉";
+            } else if (colour === "青" && number === 0) {
+                result = "あなた今楽しいですか？";
+            } else if (colour === "青" && number === 1) {
+                result = "とても素晴らしいことです";
+            } else if (colour === "青" && number === 2) {
+                result = "この先右方向です";
             }
 
             document.getElementById('result-output').innerText = "あなたの今週の運勢は【" + result + "】です";
