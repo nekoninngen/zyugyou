@@ -29,5 +29,5 @@
                 result = "この先右方向です";
             }
 
-            document.getElementById('result-output').innerText = "あなたの今週の運勢は【" + result + "】です";
+            document.getElementById('result-output').innerText = "【" + result + "】";
         }
