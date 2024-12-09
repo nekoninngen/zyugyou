@@ -93,7 +93,7 @@ function displayTime() {
   const h = String(currentTime.getHours()-1).padStart(2, '0');
   const m = String(currentTime.getMinutes()).padStart(2, '0');
   const s = String(currentTime.getSeconds()).padStart(2, '0');
-  const ms = String(currentTime.getMilliseconds()).padStart(3, '0');
+
 
   time.textContent = `${h}:${m}:${s}.${ms}`;
   timeoutID = setTimeout(displayTime, 10);
