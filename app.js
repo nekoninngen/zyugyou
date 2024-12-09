@@ -122,7 +122,7 @@ resetButton.addEventListener('click', function() {
   startButton.disabled = false;
   stopButton.disabled = true;
   resetButton.disabled = true;
-  time.textContent = '00:00:00.000';
+  time.textContent = '00:00:00';
   stopTime = 0;
 });
 
