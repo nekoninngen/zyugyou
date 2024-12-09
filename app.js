@@ -13,7 +13,8 @@
                 result = "惜しい！";
             } else 
 
-
+document.getElementById('result-output').innerText = "あなたの今週の運勢は【" + result + "】です";
+        }
 
 
 
